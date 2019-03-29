@@ -42,5 +42,5 @@ function maxOf(arr) {
 }
 
 function includesNumber(arr, num) {
-  
+  if (!)
 } 
