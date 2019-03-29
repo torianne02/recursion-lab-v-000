@@ -12,13 +12,10 @@ function printString(myString) {
 }
 
 function reverseString(myString) {
-  console.log(myString[myString.length - 1])
-  
-  if (myString.length > 1) {
-    let mySubString = myString.substring(0, myString.length - 1)
-    reverseString(mySubString);
+  if (myString.length < 2) {
+    return myString;
   } else {
-    return true;
+    return reverseString(myString.substring(1)) + myString[0];
   }
 }
 
