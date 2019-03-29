@@ -28,3 +28,4 @@ function isPalindrome(myString) {
     return false
   }
 }
+
