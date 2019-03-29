@@ -22,5 +22,7 @@ function reverseString(myString) {
 function isPalindrome(myString) {
   let length = myString.length;
   
-  if (length > 2)
+  if (length < 2) {
+    return true
+  } else
 }
