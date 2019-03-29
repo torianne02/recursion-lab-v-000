@@ -24,5 +24,7 @@ function isPalindrome(myString) {
   
   if (length < 2) {
     return true
-  } else
+  } else if (myString.) {
+    
+  }
 }
