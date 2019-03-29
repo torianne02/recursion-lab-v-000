@@ -32,3 +32,7 @@ function isPalindrome(myString) {
 function addUpTo(arr, index) {
   return index ? arr[index] + addUpTo(arr, --index) : arr[index];
 }
+
+function maxOf(arr) {
+  
+}
