@@ -40,3 +40,7 @@ function maxOf(arr) {
     return Math.max(arr.pop(), maxOf(arr))
   }
 }
+
+function includesNumber(arr) {
+  
+} 
