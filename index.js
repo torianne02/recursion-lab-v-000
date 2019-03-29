@@ -34,5 +34,7 @@ function addUpTo(arr, index) {
 }
 
 function maxOf(arr) {
-  
+  if (arr.length === 1) {
+    return arr
+  }
 }
