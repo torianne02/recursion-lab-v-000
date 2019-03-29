@@ -10,3 +10,14 @@ function printString(myString) {
     return true;
   }
 }
+
+function reverseString(myString) {
+  console.log(myString[myString.length - 1])
+  
+  if (myString.length > 1) {
+    let mySubString = myString.substring(0, myString.length - 1)
+    reverseString(mySubString);
+  } else {
+    return true;
+  }
+}
