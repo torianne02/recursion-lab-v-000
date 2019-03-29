@@ -41,6 +41,6 @@ function maxOf(arr) {
   }
 }
 
-function includesNumber(arr) {
+function includesNumber(arr, num) {
   
 } 
