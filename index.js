@@ -3,5 +3,3 @@
 function printString(myString) {
   console.log(myString[0])
 }
-
-printString('pizza')
