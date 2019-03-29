@@ -15,7 +15,7 @@ function reverseString(myString) {
   console.log(myString[myString.length - 1])
   
   if (myString.length > 1) {
-    let mySubString = myString.substring(0, myString.length - 1)
+    let mySubString = myString.substring(0, myString.length)
     reverseString(mySubString);
   } else {
     return true;
